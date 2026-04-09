@@ -948,7 +948,7 @@ function renderAdminReports() {
 						? Math.round((sold / Math.max(1, topSold)) * 100)
 						: 0;
 					return `<div style="display:flex;align-items:center;gap:14px">
-          <span style="min-width:200px;font-size:.84rem;color:rgba(248,245,238,.7);font-weight:500">${p.name}</span>
+          <span style="min-width:200px;font-size:.84rem;color:rgba(59, 43, 4, 0.7);font-weight:500">${p.name}</span>
           <div style="flex:1;height:24px;background:var(--dark-3);border-radius:var(--r);overflow:hidden">
             <div style="height:100%;width:${pct}%;background:var(--yellow);display:flex;align-items:center;padding:0 10px;font-size:.68rem;color:var(--black);font-weight:700;min-width:${sold ? "50px" : "0"}">${sold ? `${sold} sold` : ""}</div>
           </div>

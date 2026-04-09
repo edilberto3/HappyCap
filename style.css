@@ -1653,7 +1653,7 @@ p {
 	padding: 14px 18px;
 	border-bottom: 1px solid var(--border-2);
 	font-size: 0.82rem;
-	color: rgba(49, 33, 2, 0.55);
+	color: rgba(49, 33, 2, 1);
 	font-weight: 300;
 }
 .data-table tr:hover td {

@@ -2009,7 +2009,7 @@ p {
 	border: 1px solid var(--border-2);
 	cursor: pointer;
 	font-size: 0.82rem;
-	color: rgba(65, 45, 5, 0.5);
+	color: rgba(65, 45, 5, 1);
 	transition: var(--tr);
 	font-weight: 300;
 }
